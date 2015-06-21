@@ -26,7 +26,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1069" selection-end="1132" vertical-scroll-proportion="-11.038462" vertical-offset="427" max-vertical-offset="1003">
+            <state line="59" column="32" selection-start="1499" selection-end="1499" vertical-scroll-proportion="-18.076923" vertical-offset="533" max-vertical-offset="1105">
               <folding />
             </state>
           </provider>
@@ -50,11 +50,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="master.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/master.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="408">
-              <folding />
+            <state line="51" column="5" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.44864866" vertical-offset="618" max-vertical-offset="1173">
+              <folding>
+                <marker date="1434922524881" expanded="true" signature="800:831" placeholder="SELECT {$col..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="13" column="20" selection-start="241" selection-end="241" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -91,7 +93,7 @@
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="119">
+            <state line="1" column="30" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -133,12 +135,13 @@
         <option value="$PROJECT_DIR$/controllers/issue.php" />
         <option value="$PROJECT_DIR$/views/issues/index.php" />
         <option value="$PROJECT_DIR$/views/layouts/default.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/views/elements/header.php" />
         <option value="$PROJECT_DIR$/controllers/master.php" />
         <option value="$PROJECT_DIR$/controllers/issues.php" />
-        <option value="$PROJECT_DIR$/models/master.php" />
+        <option value="$PROJECT_DIR$/lib/database.php" />
         <option value="$PROJECT_DIR$/config/db.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/models/master.php" />
       </list>
     </option>
   </component>
@@ -433,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1069" selection-end="1132" vertical-scroll-proportion="-11.038462" vertical-offset="427" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/elements/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="51" selection-start="140" selection-end="140" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="476">
@@ -463,30 +459,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="113" selection-end="113" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
@@ -502,8 +477,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state line="13" column="20" selection-start="241" selection-end="241" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="629">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="30" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="113" selection-end="113" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="32" selection-start="1499" selection-end="1499" vertical-scroll-proportion="-18.076923" vertical-offset="533" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="5" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.44864866" vertical-offset="618" max-vertical-offset="1173">
+          <folding>
+            <marker date="1434922524881" expanded="true" signature="800:831" placeholder="SELECT {$col..." />
+          </folding>
         </state>
       </provider>
     </entry>
