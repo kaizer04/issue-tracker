@@ -31,13 +31,6 @@ CREATE TABLE IF NOT EXISTS `issue-tracker`.`issues` (
     FOREIGN KEY (`user_id`)
     REFERENCES `issue-tracker`.`users` (`id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-	`state_id` INT NOT NULL,
-  INDEX `fk_issues_states_idx` (`state_id` ASC),
-  CONSTRAINT `fk_issues_states`
-    FOREIGN KEY (`state_id`)
-    REFERENCES `issue-tracker`.`states` (`id`)
-    ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -67,6 +60,27 @@ CREATE TABLE IF NOT EXISTS `issue-tracker`.`comments` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
+
+-- -----------------------------------------------------
+-- Table `issue-tracker`.`states_issues`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `issue-tracker`.`states_issues` (
+  `state_id` INT NOT NULL,
+  `issue_id` INT NOT NULL,
+  PRIMARY KEY (`state_id`, `issue_id`),
+  INDEX `fk_states_has_issues_issues1_idx` (`issue_id` ASC),
+  INDEX `fk_states_has_issues_states1_idx` (`state_id` ASC),
+  CONSTRAINT `fk_states_has_issues_states1`
+    FOREIGN KEY (`state_id`)
+    REFERENCES `issue-tracker`.`states` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_states_has_issues_issues1`
+    FOREIGN KEY (`issue_id`)
+    REFERENCES `issue-tracker`.`issues` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
