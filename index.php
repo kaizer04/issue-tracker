@@ -13,6 +13,7 @@ $param = array();
 include_once 'config/db.php';
 include_once 'lib/database.php';
 include_once 'controllers/master.php';
+include_once 'models/master.php';
 
 if ( ! empty( $request ) ) {
     if ( 0 === strpos($request, $request_home)){
@@ -38,6 +39,7 @@ if ( ! empty( $request ) ) {
 //            $admin_folder = $admin_routing ? 'admin/' : '';
 //
             include_once 'controllers/' . $controller . '.php';
+            include_once 'models/' . $controller . '.php';
         }
     }
 }
