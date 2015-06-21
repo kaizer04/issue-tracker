@@ -3,8 +3,11 @@
 namespace Controllers;
 
 class Master_Controller {
+    protected $layout;
+    
     public function __construct() {
-        echo "Master Controller<br />";
+        $this->layout = DX_ROOT_DIR . '/views/layouts/default.php';
+//        echo "Master Controller<br />";
     }
 
 }

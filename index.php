@@ -40,9 +40,9 @@ if ( ! empty( $request ) ) {
     }
 }
 
-var_dump($controller);
-var_dump($method);
-var_dump($param);
+//var_dump($controller);
+//var_dump($method);
+//var_dump($param);
 
 
 $controller_class = '\Controllers\\'.ucfirst($controller).'_Controller';
