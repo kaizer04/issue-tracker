@@ -10,6 +10,8 @@ $controller = 'master';
 $method = 'index';
 $param = array();
 
+include_once 'controllers/master.php';
+
 if ( ! empty( $request ) ) {
     if ( 0 === strpos($request, $request_home)){
         $request = substr($request, strlen($request_home));
@@ -33,7 +35,7 @@ if ( ! empty( $request ) ) {
 
 //            $admin_folder = $admin_routing ? 'admin/' : '';
 //
-//            include_once 'controllers/' . $admin_folder . $controller . '.php';
+            include_once 'controllers/' . $controller . '.php';
         }
     }
 }
@@ -41,3 +43,12 @@ if ( ! empty( $request ) ) {
 var_dump($controller);
 var_dump($method);
 var_dump($param);
+
+
+$controller_class = '\Controllers\\'.ucfirst($controller).'_Controller';
+
+$instance = new $controller_class();
+
+if (method_exists($instance, $method)) {
+    call_user_func_array(array($instance, $method), array($param));
+}

@@ -1,8 +1,10 @@
 <?php
 
-class Master {
+namespace Controllers;
+
+class Master_Controller {
     public function __construct() {
-        echo('Master Controller');
+        echo "Master Controller<br />";
     }
 
 }

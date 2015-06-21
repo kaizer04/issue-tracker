@@ -1,0 +1,1 @@
+<h2>Issues index view</h2>
