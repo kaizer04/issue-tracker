@@ -44,7 +44,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/login/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
+            <state line="12" column="7" selection-start="243" selection-end="243" vertical-scroll-proportion="0.36624774" vertical-offset="0" max-vertical-offset="557">
               <folding />
             </state>
           </provider>
@@ -138,6 +138,7 @@
         <option value="$PROJECT_DIR$/lib/auth.php" />
         <option value="$PROJECT_DIR$/views/elements/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/login/index.php" />
       </list>
     </option>
   </component>
@@ -551,7 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/login/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
+        <state line="12" column="7" selection-start="243" selection-end="243" vertical-scroll-proportion="0.36624774" vertical-offset="0" max-vertical-offset="557">
           <folding />
         </state>
       </provider>
