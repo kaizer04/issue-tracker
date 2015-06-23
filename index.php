@@ -39,7 +39,6 @@ if ( ! empty( $request ) ) {
 //            $admin_folder = $admin_routing ? 'admin/' : '';
 //
             include_once 'controllers/' . $controller . '.php';
-            include_once 'models/' . $controller . '.php';
         }
     }
 }
