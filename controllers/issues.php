@@ -11,10 +11,10 @@ class Issues_Controller extends Master_Controller {
 
     public function index() {
 //        echo "Issues` index()<br/>";
-//        $issue = $this->model->get(1);
-//        $issue = $this->model->get_by_title('test1');
-        $issue = $this->model->find();
-//        var_dump($issue); die();
+//        $issues = $this->model->get(1);
+//        $issues = $this->model->get_by_title('test1');
+        $issues = $this->model->find();
+//        var_dump($issues); die();
         $template_name = DX_ROOT_DIR . $this->views_dir . 'index.php';
 
         include_once $this->layout;
