@@ -12,6 +12,7 @@ $param = array();
 
 include_once 'config/db.php';
 include_once 'lib/database.php';
+include_once 'lib/auth.php';
 include_once 'controllers/master.php';
 include_once 'models/master.php';
 
