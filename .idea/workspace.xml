@@ -64,9 +64,9 @@
       <file leaf-file-name="auth.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="159" selection-end="229" vertical-scroll-proportion="0.2647059" vertical-offset="0" max-vertical-offset="1071">
+            <state line="38" column="0" selection-start="839" selection-end="1469" vertical-scroll-proportion="0.2647059" vertical-offset="493" max-vertical-offset="1071">
               <folding>
-                <marker date="1435096421816" expanded="true" signature="1037:1116" placeholder="SELECT id, u..users..." />
+                <marker date="1435096544688" expanded="true" signature="1025:1104" placeholder="SELECT id, u..users..." />
               </folding>
             </state>
           </provider>
@@ -487,9 +487,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="159" selection-end="229" vertical-scroll-proportion="0.2647059" vertical-offset="0" max-vertical-offset="1071">
+        <state line="38" column="0" selection-start="839" selection-end="1469" vertical-scroll-proportion="0.2647059" vertical-offset="493" max-vertical-offset="1071">
           <folding>
-            <marker date="1435096421816" expanded="true" signature="1037:1116" placeholder="SELECT id, u..users..." />
+            <marker date="1435096544688" expanded="true" signature="1025:1104" placeholder="SELECT id, u..users..." />
           </folding>
         </state>
       </provider>
