@@ -45,7 +45,7 @@ class Auth {
         );
         $statement->bind_param('ss', $username, $password);
         $statement->execute();
-        $result_set = $statement->get_result();
+        $result_set =  $statement->get_result();
         if($row = $result_set->fetch_assoc()) {
             $_SESSION['username'] = $row['username'];
             $_SESSION['user_id'] = $row['id'];
