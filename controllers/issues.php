@@ -4,12 +4,25 @@ namespace Controllers;
 
 class Issues_Controller extends Master_Controller {
     public function __construct() {
-        parent::__construct('/views/issues/');
+        parent::__construct(get_class(),
+                            'issue',
+                            '/views/issues/');
     }
 
     public function index() {
 //        echo "Issues` index()<br/>";
+//        $issue = $this->model->get(1);
+//        $issue = $this->model->get_by_title('test1');
+        $issue = $this->model->find();
+//        var_dump($issue); die();
+        $template_name = DX_ROOT_DIR . $this->views_dir . 'index.php';
 
+        include_once $this->layout;
+    }
+
+    public function view($id) {
+        $issue = $this->model->get($id);
+//        var_dump($issue); die();
         $template_name = DX_ROOT_DIR . $this->views_dir . 'index.php';
 
         include_once $this->layout;

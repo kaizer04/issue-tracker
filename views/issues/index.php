@@ -1,1 +1,3 @@
-<h2>Issues index view</h2>
+<div>
+    
+</div>

@@ -8,9 +8,10 @@ class Master_Model {
     protected $db;
 
     public function __construct($args = array()) {
-        $args = array(
+        $defaults = array(
             'limit' => 0
         );
+        $args = array_merge($defaults, $args);
 
         if(!isset($args['table'])) {
             die('Table not defined.');
@@ -24,7 +25,15 @@ class Master_Model {
         $this->db = $db_object::get_db();
     }
 
-    public function find($args = array()) {
+    public function get($id) {
+        return $this->find(array('where' => 'id = ' . $id));
+    }
+
+    public function get_by_title($title) {
+        return $this->find(array('where' => "title= '" . $title . "'"));
+    }
+
+    public  function find($args = array()) {
         $defaults = array(
             'table' => $this->table,
             'limit' => $this->limit,
