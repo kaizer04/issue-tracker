@@ -33,6 +33,41 @@ class Master_Model {
         return $this->find(array('where' => "title= '" . $title . "'"));
     }
 
+    public function update($element) {
+        if(!isset($element['id'])) die('Wrong model set');
+
+        $query = "UPDATE {$this->table} SET ";
+        foreach($element as $key => $value) {
+            if($key === 'id') continue;
+            $query .= "$key = '" . $this->db->real_escape_string($value) . "',";
+        }
+
+        $query = rtrim($query, ',');
+        $query .= " WHERE id = {$element['id']}";
+        var_dump($query);
+
+        $this->db->query($query);
+
+        return $this->db->affected_rows;
+    }
+
+    public function add($element) {
+        $keys = array_keys($element);
+        $values = array();
+        foreach($element as $key => $value) {
+            $values[] = "'" . $this->db->real_escape_string($value) . "'";
+        }
+
+        $keys = implode($keys, ',');
+        $values = implode($values, ',');
+
+        $query = "INSERT INTO {$this->table}($keys) VALUES($values)";
+//        var_dump($query); die();
+        $this->db->query($query);
+
+        return $this->db->affected_rows;
+    }
+
     public  function find($args = array()) {
         $defaults = array(
             'table' => $this->table,

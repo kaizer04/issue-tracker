@@ -8,6 +8,7 @@ $request_home = '/' . DX_ROOT_PATH;
 
 $controller = 'master';
 $method = 'index';
+$admin_routing = false;
 $param = array();
 
 include_once 'config/db.php';
@@ -20,11 +21,11 @@ if ( ! empty( $request ) ) {
     if ( 0 === strpos($request, $request_home)){
         $request = substr($request, strlen($request_home));
 
-//        if(0 === strpos($request, 'admin/')) {
-//            $admin_routing = true;
-//            include_once 'controllers/admin/master.php';
-//            $request = substr($request, strlen('admin/'));
-//        }
+        if(0 === strpos($request, 'admin/')) {
+            $admin_routing = true;
+            include_once 'controllers/admin/master.php';
+            $request = substr($request, strlen('admin/'));
+        }
 //        var_dump($request); die();
 
         $components = explode('/', $request, 3);
@@ -37,9 +38,9 @@ if ( ! empty( $request ) ) {
                 $param = $components[2];
             }
 
-//            $admin_folder = $admin_routing ? 'admin/' : '';
-//
-            include_once 'controllers/' . $controller . '.php';
+            $admin_folder = $admin_routing ? 'admin/' : '';
+
+            include_once 'controllers/' . $admin_folder . $controller . '.php';
         }
     }
 }
@@ -48,8 +49,8 @@ if ( ! empty( $request ) ) {
 //var_dump($method);
 //var_dump($param);
 
-
-$controller_class = '\Controllers\\'.ucfirst($controller).'_Controller';
+$admin_namespace = $admin_routing ? '\Admin' : '';
+$controller_class = $admin_namespace . '\Controllers\\'.ucfirst($controller).'_Controller';
 
 $instance = new $controller_class();
 

@@ -1,2 +1,2 @@
 <?php
-define('DX_ROOT_URL', 'http://localhost/artists/');
+define('DX_ROOT_URL', 'http://localhost/issues/');
