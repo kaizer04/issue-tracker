@@ -22,7 +22,35 @@
     <favorites_list name="issue-tracker" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="comments.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/comments.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="1" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-20.26923" vertical-offset="102" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/comment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="54" selection-start="175" selection-end="175" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/comments/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="19" selection-start="230" selection-end="230" vertical-scroll-proportion="0.1764706" vertical-offset="0" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -53,6 +81,9 @@
         <option value="$PROJECT_DIR$/controllers/admin/issues.php" />
         <option value="$PROJECT_DIR$/models/master.php" />
         <option value="$PROJECT_DIR$/views/admin/issues/edit.php" />
+        <option value="$PROJECT_DIR$/controllers/comments.php" />
+        <option value="$PROJECT_DIR$/models/comment.php" />
+        <option value="$PROJECT_DIR$/views/comments/index.php" />
       </list>
     </option>
   </component>
@@ -170,29 +201,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="issue-tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="issue-tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="issues" />
+              <option name="myItemId" value="comments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,11 +290,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\issue-tracker\views\admin\issues" />
       <recent name="C:\xampp\htdocs\issue-tracker\views" />
+      <recent name="C:\xampp\htdocs\issue-tracker\models" />
       <recent name="C:\xampp\htdocs\issue-tracker\controllers\admin" />
+      <recent name="C:\xampp\htdocs\issue-tracker\views\admin\issues" />
       <recent name="C:\xampp\htdocs\issue-tracker\controllers" />
-      <recent name="C:\xampp\htdocs\issue-tracker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\issue-tracker\controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -315,14 +327,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1364" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -415,7 +427,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1139" />
+        <state line="14" column="22" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1139">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/login/index.php">
@@ -435,12 +449,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/issues.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="731" />
+        <state line="16" column="35" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="731">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/issues/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272" />
+        <state line="7" column="43" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/auth.php">
@@ -467,12 +485,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1139" />
+        <state line="17" column="28" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1139">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/issue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="52" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238" />
+        <state line="6" column="52" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -512,7 +534,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/issues.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="494" selection-end="494" vertical-scroll-proportion="-3.7692308" vertical-offset="174" max-vertical-offset="731" />
+        <state line="16" column="35" selection-start="494" selection-end="494" vertical-scroll-proportion="-3.7692308" vertical-offset="174" max-vertical-offset="731">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/elements/header.php">
@@ -537,7 +561,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="-11.115385" vertical-offset="204" max-vertical-offset="1156" />
+        <state line="29" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="-11.115385" vertical-offset="204" max-vertical-offset="1156">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.php">
@@ -547,7 +573,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/issues/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="308" selection-end="308" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272" />
+        <state line="7" column="43" selection-start="308" selection-end="308" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/master/index.php">
@@ -557,7 +585,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/issue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="52" selection-start="171" selection-end="171" vertical-scroll-proportion="0.1764706" vertical-offset="0" max-vertical-offset="578" />
+        <state line="6" column="52" selection-start="171" selection-end="171" vertical-scroll-proportion="0.1764706" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/admin/issues.php">
@@ -608,6 +638,27 @@
     <entry file="file://$PROJECT_DIR$/views/admin/issues/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="6" selection-start="352" selection-end="352" vertical-scroll-proportion="0.29411766" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="1" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-20.26923" vertical-offset="102" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="54" selection-start="175" selection-end="175" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/comments/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="230" selection-end="230" vertical-scroll-proportion="0.1764706" vertical-offset="0" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
